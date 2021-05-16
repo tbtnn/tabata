@@ -340,7 +340,9 @@ font-size: 25px;
 footer{
     background-color: #ECF8FD;
     margin-top:200px;
-   
+   height:1200px;
+    position: absolute;
+    width:100%;
     margin-bottom:0;
     font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
 }
