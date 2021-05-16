@@ -112,6 +112,10 @@
     .menus{
         padding-top:30px;
     }
+    .clear{
+
+    clear:left;
+    }
     .guide{
         width:100%;
         padding-bottom:0px;
