@@ -1,0 +1,429 @@
+*{
+    box-sizing:border-box;
+  }
+  
+  .container{
+    height:95px;
+    width:100%;
+    background-color:rgba(185,216,248,0.8);
+    border-bottom: 1px solid #191970;
+    position: fixed;
+    top:0;
+    z-index: 10;
+}
+.header-left{
+    float:left;
+}
+.header-left h3{
+    font-family: 'Osaka',sans-serif;
+    font-size: 30px;
+    line-height: 90px;
+    margin:0px;
+    padding:0px;
+    height:65px;
+    color:#191970;
+ 
+}   
+.header-left p{
+    margin:0px;
+    padding-top:0px;
+    text-align: center;
+    color: #191970;
+}
+.header-right{
+    float:right;
+    width:28%;
+    
+}
+
+
+.header-right ul li{
+    float: left;
+    list-style: none;
+    padding-right:15px;
+    text-align: center;
+    
+    
+}
+.header-right p{
+    font-size:18px;
+   
+   
+}
+.header-right a{
+    font-size: 30px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.top{
+    height:700px;
+    background-image: url("https://www.photock.jp/photo/middle/photo0000-0360.jpg");
+    background-size: cover;
+    position: relative;
+    
+
+}
+.top h1{
+    font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom:80px;
+    position: absolute;
+    bottom:0;
+    
+   
+
+}
+.top h2{
+    font-size:70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    bottom:0;
+    padding:0;
+    margin:0;
+}
+.COVID-19{
+    font-size: 40px;
+    text-align: center;
+    margin-top:65px;
+    border:double 5px #2e8b57;
+    padding:0.5em 1em;
+    margin:2em 0;
+    background-color: #f5f5dc;
+    cursor: pointer;
+    font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+}
+.COVID-19 a{
+padding:0;
+margin: 0;
+}
+
+.menus{
+
+ background-image: url("https://www.projectdesign.jp/201801/images/gazou/128_2.jpg");
+ background-size: cover;
+ 
+ text-align: center;
+}
+.main h1{
+    font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+    font-size: 40px;
+    color:#191970;
+    height:60px;
+    margin:50px;
+}
+.clear{
+    clear:left;
+  }
+.menu {
+    background-color: white;
+    margin-top:60px;
+    margin-left:100px;
+   height: 300px;
+    width:290px;
+    float: left;
+    cursor: pointer;
+}
+.menu h3{
+    font-size: 26px;
+    font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+    
+}
+.menu h4{
+    font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+    font-size: 25px;
+}
+
+/*ここから色の調整*/
+
+.menu1{background-color: #ffffe0;
+}
+.menu1 i{
+    background-color:white;
+}
+.menu1:hover{
+ background-color:#F9FB78 ;
+}
+
+.menu2{
+    background-color:#DAFCD3;
+}
+.menu2 i{
+    background-color:white;
+}
+.menu2:hover{
+ background-color:#97FB83 ;
+}
+
+.menu3
+{background-color:#D7EFFD;
+}
+.menu3 i{
+    background-color:white;
+}
+.menu3:hover{
+ background-color:#8DD1FB ;
+}
+
+.menu4{
+    background-color:#ECE1FE;
+}
+.menu4 i{
+    background-color:white;
+}
+.menu4:hover{
+ background-color:#D7BEFD ;
+}
+
+.menu5{background-color: #FDF0D8;
+}
+.menu5 i{
+    background-color:white;
+}
+.menu5:hover{
+ background-color:#F9D084;
+}
+
+.menu6{
+    background-color:#FDE6EB;
+}
+.menu6 i{
+    background-color:white;
+}
+.menu6:hover{
+ background-color:#E8A0AE ;
+}
+
+.menu7{background-color:#CFD0FB ;
+}
+.menu7 i{
+    background-color:white;
+}
+.menu7:hover{
+ background-color: #8183FD;
+}
+
+.menu8{background-color:#ECECEE;
+}
+.menu8 i{
+    background-color:white;
+}
+.menu8:hover{
+ background-color: #BABAC3;
+}
+
+.information{
+    cursor: pointer;
+    font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+}
+
+.information h1{
+    font-size: 40px;
+    color: 191970;
+}
+/*infoの調整*/
+
+*, *:before, *:after {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+.info {margin: 1em auto;padding: 0 1.5em;border: 1px solid #ccc;text-align: left;font-size: 1em;line-height: 1.3;color: #444;overflow: auto;width: 70%;height: 13em;background-color: #fcfcfc;}
+.info dl {padding: 0.5em 0;border-bottom: 1px solid #ccc;}
+.info dt {padding-bottom: 0;width: 7em;}
+@media screen and (min-width: 500px) {
+.info dt {clear: left;float: left;}
+.info dd {margin-left: 0.5em;}
+}
+
+.about{
+    font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+    margin-top:100px;
+    line-height: 180%;
+    display: table;
+    
+   
+    
+}
+.time h3{
+ background-color:#DDDDDD;
+ display: inline-block;
+ width:430px;
+ height:60px;
+ line-height: 60px;
+color:#191970;
+font-size: 25px;
+
+}
+
+.time{
+    width:60%;
+    display: table-cell;
+    
+}
+.time2{
+    display: table;
+    
+}
+.time h1{
+    font-size: 38px;
+    font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+    color: #191970;
+    border-bottom: 1px solid silver;
+    display: inline-block;
+    width:98%;
+    
+}
+.time p{
+    font-size: 20px;
+    font-weight: normal;
+    margin-left:50px;
+}
+
+.time h6{
+    font-size: 20px;
+    margin: 30px;
+}
+
+.left-time{
+  
+    margin-left:100px;
+    display: table-cell;
+}
+
+.right-time{
+    
+    padding-top:20px;
+    display: table-cell;
+    
+}
+
+.access{
+    display: table-cell;
+    width:40%;
+    margin-top:0px;
+    
+}
+.access h2{
+    font-size: 38px;
+    font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+    color: #191970;
+    border-bottom: 1px solid silver;
+
+}
+
+.access h4{
+    border:2px solid black;
+    width:550px;
+    margin:0 auto;
+    height:350px;
+    margin-bottom:100px;
+}
+
+.access p{
+    font-size: 20px;
+    margin-left:30px;
+}
+
+.access a{
+    font-size: 25px;
+    border:2px solid #000099;
+    display: block;
+    text-align: center;
+   height:50px;
+   width:90%;
+   line-height: 50px;
+   cursor: pointer;
+   margin-left:30px;
+}
+.access a:hover{
+    color:white;
+    background-color: #000099;
+}
+
+footer{
+    background-color: #ECF8FD;
+    margin-top:200px;
+   
+    margin-bottom:0;
+    font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+}
+
+.footer-left{
+    float: left;
+    padding:60px;
+    margin-bottom:1200px;
+}
+.footer-right{
+    padding-top:100px;
+    width:70%;
+    display: inline-block;
+    line-height: 45px;
+}
+
+.guide{
+    float: left;
+    padding:40px;
+}
+.category-1{
+    float: left;
+    padding:30px;
+    margin-top:8px;
+    
+}
+.category-2{
+    padding:0px;
+    float: left;
+    margin-top:125px;
+   
+}
+.category-3{
+    margin-top:94px;
+    padding:0px;
+}
+.footer-name h1{
+    font-family: 'Osaka',sans-serif;
+    color:#191970;
+    font-size: 45px;
+    margin-bottom:0px;
+}
+.footer-name p{
+    font-family: 'Osaka',sans-serif;
+    color:#191970;
+    font-size: 20px;
+    margin-top:0px;
+}
+.address{
+    font-size: 20px;
+}
+.footer-bottom{
+    float: left;
+    padding-left:30px;
+    width:70%;
+    line-height: 45px;
+    
+}
+.footer-bottom-1{
+    float: left;
+    margin-right:90px;
+}
+.footer-bottom-2{
+    margin-top:105px;
+}
+.footer-right ul li{
+    list-style: none;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.footer-bottom-1 ul li{
+    list-style: none;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.footer-bottom-2 ul li{
+    list-style: none;
+    font-size: 23px;
+    cursor: pointer;
+}
+footer h4{
+    font-size:25px;
+    color: #000099;
+}
