@@ -13,6 +13,7 @@
     .menus{
         padding-bottom:50px;
     }
+   
     .time{
         width:100%;
         display: block;
@@ -79,7 +80,10 @@
     }
 
     .about{
-        width:670px;
+        width:100%;
+    }
+    .information{
+        display: none;
     }
     .left-time{
         width:100%;
@@ -129,5 +133,8 @@
     }
     .category-1 h4{
         margin-top:0px;
+    }
+    .footer{
+        width:100%;
     }
 }
