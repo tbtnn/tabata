@@ -10,7 +10,4 @@ $(".faq-list-item").click(function(){
     $answer.slideDown();
     $(this).children("span").text("-");
   }
-  
- 
-  
 });
