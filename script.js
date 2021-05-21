@@ -1,3 +1,7 @@
+window.addEventListener('DOMContentLoaded', function(){
+
+
+
 $(".faq-list-item").click(function(){
   var $answer=$(this).find(".answer")
    
@@ -10,4 +14,5 @@ $(".faq-list-item").click(function(){
     $answer.slideDown();
     $(this).children("span").text("-");
   }
+});
 });
